@@ -1,0 +1,334 @@
+
+*{
+  box-sizing: border-box;
+ 
+}
+*:focus {
+  outline: none;
+}
+body{
+  margin: 0;
+  background-color: #eee;
+}
+:root{
+  --cell-size: 130px;
+}
+.mainboard{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+ 
+
+}
+
+
+
+.celltop{
+  display: flex;
+}
+.cell-1{
+  width: var(--cell-size);
+  height: var(--cell-size);
+  display: relative;
+  background-color: teal;
+  border: 3px solid rgb(234, 234, 234);
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(103, 103, 103);
+}
+.cell-1:hover{
+  transform: rotatex(20deg);
+}
+.cell-1 input{
+  position: relative;
+  width: calc(var(--cell-size)* .96);
+  height: calc(var(--cell-size)* .96);
+  background-color: transparent;
+  font-size: 5rem;   
+  border-radius: 20px;
+  border: 0px solid transparent;
+  text-align: center; 
+  color: white;
+}
+
+
+.cell-2{
+  width: var(--cell-size);
+  height: var(--cell-size);
+  display: relative;
+  background-color: teal;
+  border: 3px solid rgb(255, 255, 255);
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(103, 103, 103);
+}
+.cell-2:hover{
+  transform: rotatex(20deg);
+}
+.cell-2 input{
+  position: relative;
+  width: calc(var(--cell-size)* .96);
+  height: calc(var(--cell-size)* .96);
+  background-color: transparent;
+  font-size: 5rem;   
+  border-radius: 20px;
+  border: 0px solid transparent;
+  text-align: center; 
+  color: white;
+}
+.cellmid{
+  display: flex;
+}
+.cell-3{
+  width: var(--cell-size);
+  height: var(--cell-size);
+  display: relative;
+  background-color: teal;
+  border: 3px solid rgb(255, 255, 255);
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(103, 103, 103);
+}
+.cell-3:hover{
+  transform: rotatex(20deg);
+}
+.cell-3 input{
+  position: relative;
+  width: calc(var(--cell-size)* .96);
+  height: calc(var(--cell-size)* .96);
+  background-color: transparent;
+  font-size: 5rem;   
+  border-radius: 20px;
+  border: 0px solid transparent;
+  text-align: center; 
+  color: white;
+}
+.cell-4{
+  width: var(--cell-size);
+  height: var(--cell-size);
+  display: relative;
+  background-color: teal;
+  border: 3px solid rgb(255, 255, 255);
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(103, 103, 103);
+}
+.cell-4:hover{
+  transform: rotatex(20deg);
+}
+.cell-4 input{
+  position: relative;
+  width: calc(var(--cell-size)* .96);
+  height: calc(var(--cell-size)* .96);
+  background-color: transparent;
+  font-size: 5rem;   
+  border-radius: 20px;
+  border: 0px solid transparent;
+  text-align: center; 
+  color: white;
+}
+.cell-5{
+  width: var(--cell-size);
+  height: var(--cell-size);
+  display: relative;
+  background-color: teal;
+  border: 3px solid rgb(255, 255, 255);
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(103, 103, 103);
+}
+.cell-5:hover{
+  transform: rotatex(20deg);
+}
+.cell-5 input{
+  position: relative;
+  width: calc(var(--cell-size)* .96);
+  height: calc(var(--cell-size)* .96);
+  background-color: transparent;
+  font-size: 5rem;   
+  border-radius: 20px;
+  border: 0px solid transparent;
+  text-align: center; 
+  color: white;
+}
+.cell-6{
+  width: var(--cell-size);
+  height: var(--cell-size);
+  display: relative;
+  background-color: teal;
+  border: 3px solid rgb(255, 255, 255);
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(103, 103, 103);
+}
+.cell-6:hover{
+  transform: rotatex(20deg);
+}
+.cell-6 input{
+  position: relative;
+  width: calc(var(--cell-size)* .96);
+  height: calc(var(--cell-size)* .96);
+  background-color: transparent;
+  font-size: 5rem;   
+  border-radius: 20px;
+  border: 0px solid transparent;
+  text-align: center; 
+  color: white;
+}
+
+.cellbottom{
+  display: flex;
+}
+.cell-7{
+  width: var(--cell-size);
+  height: var(--cell-size);
+  display: relative;
+  background-color: teal;
+  border: 3px solid rgb(255, 255, 255);
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(103, 103, 103);
+}
+.cell-7:hover{
+  transform: rotatex(20deg);
+}
+.cell-7 input{
+  position: relative;
+  width: calc(var(--cell-size)* .96);
+  height: calc(var(--cell-size)* .96);
+  background-color: transparent;
+  font-size: 5rem;   
+  border-radius: 20px;
+  border: 0px solid transparent;
+  text-align: center; 
+  color: white;
+}
+.cell-8{
+  width: var(--cell-size);
+  height: var(--cell-size);
+  display: relative;
+  background-color: teal;
+  border: 3px solid rgb(255, 255, 255);
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(103, 103, 103);
+}
+.cell-8:hover{
+  transform: rotatex(20deg);
+}
+.cell-8 input{
+  position: relative;
+  width: calc(var(--cell-size)* .96);
+  height: calc(var(--cell-size)* .96);
+  background-color: transparent;
+  font-size: 5rem;   
+  border-radius: 20px;
+  border: 0px solid transparent;
+  text-align: center; 
+  color: white;
+}
+
+.game-message{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(216, 76, 92);
+  opacity: .8;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 5rem;
+  flex-direction: column;
+  font-family: 'Atma';
+}
+.game-message button{
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(33, 43, 46);
+  font-size: 1.5rem;
+  padding: .8em 1.5em;
+  border: 1px solid rgb(33, 43, 46);
+  border-radius: 50px;
+  font-family: 'Atma';
+  font-weight: 900;
+
+}
+.game-message button:hover{
+  background-color: teal;
+  opacity: 1;
+  color: white;
+  border-color: white;
+}
+.game-message.show{
+  display: flex;
+}
+.resetButton{
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(33, 43, 46);
+  font-size: 1.5rem;
+  padding: .5em 1.5em;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-family: 'Akshar';
+  font-weight: 900;
+  box-shadow: 5px 5px 5px rgb(103, 103, 103);
+  margin: 10px;
+}
+.resetButton:hover{
+  transform: scaleY(45deg);
+  background-color: rgb(12, 182, 182)
+}
+
+.game-win{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(1, 138, 180);
+  opacity: .8;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 5rem;
+  flex-direction: column;
+  font-family: 'Atma';
+}
+.game-win button{
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(33, 43, 46);
+  font-size: 1.5rem;
+  padding: .8em 1.5em;
+  border: 1px solid rgb(33, 43, 46);
+  border-radius: 50px;
+  font-family: 'Atma';
+  font-weight: 900;
+
+}
+.game-win button:hover{
+  background-color: teal;
+  opacity: 1;
+  color: white;
+  border-color: white;
+}
+.game-win.show{
+  display: flex;
+}
+.error {
+  background-color: red;
+}
